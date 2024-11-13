@@ -5,13 +5,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", 23861777"")
+    API_HASH  = os.environ.get("API_HASH", 16104c9a6a05c337237819a218d46c5d"")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", 7571567262:AAHL5yJe6CBQ8cM89FPx3AwsfmKFarwj9NI"") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://patelbhart45y666:yUY67YQZis7FS1op@cluster0.zsmsb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
@@ -19,8 +19,8 @@ class Config(object):
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", omniscient_reader_view_poinnt"") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001907249407""))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
@@ -39,7 +39,7 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @Madflix_Bots"""
+<b>Bot Is Made By :</b> @NARUTO_UZUMAKI07th"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
@@ -90,7 +90,7 @@ class Txt(object):
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> `madflixofficial@axl`
+<b>🛍 UPI ID:</b> `Narutoprit@fam`
 """
 
 
@@ -98,9 +98,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @Madflix_Bots</code>
+<code>By :- @Animes_Ocean</code>
 
-💬 For Any Help Contact @MadflixOfficials
+💬 For Any Help Contact @NARUTO_UZUMAKI07th
 """
 
 
